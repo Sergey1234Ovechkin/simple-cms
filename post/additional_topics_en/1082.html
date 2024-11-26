@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+ <html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="htmlix, создание spa на htmlix, htmlix уроки, htmlix api, javascript">
+		<link rel="stylesheet" href="https://sergey123ovechkin.github.io/simple-cms/static/css/bootstrap.min.css">
+		 <script src="https://sergey123ovechkin.github.io/simple-cms/static/js/showdown.min.js"></script>
+		<link rel="stylesheet" href="https://sergey123ovechkin.github.io/simple-cms/static/css/main.css">
+    </head>
+<body>
+<div class="container-fluid">
+
+
+
+<nav data-menu="array" class="navbar navbar-expand-sm navbar-light bg-light">
+		
+		<div data-menu-mobail_toggler="click" class="toggler-mobail-nav-type mr-auto" style="background-color: #ebf5ff; width: 100%;">
+		  <a href="#" style="font-size: 25px; margin-left: 7px; "> = </a>
+		</div>	
+		<ul data-menu-mobail_toggler_style="style" class="navbar-nav mr-auto">
+												
+			 <li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="home" class="nav-link" href="/simple-cms/Htmlix/#">Htmlix</a>
+					<ul class="hover-non">
+					
+					</ul>
+			  </li>
+			  
+			   <li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="api" class="nav-link" href="/simple-cms/api/#">api</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/terms/#" data-item_level_2_top-click="click" data-item_level_2_top-data="terms">   <span data-item_level_2_top-title="text">Термины</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/31782" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="31782" data-item_level_3-href="href" title="Компоненты  htmlix">Компоненты </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/20010" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="20010" data-item_level_3-href="href" title="Свойства htmlix">Свойства</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/19950" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="19950" data-item_level_3-href="href" title="Описание и экземпляр приложения htmlix">Описание и экземпляр приложения</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/create_components/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_components">   <span data-item_level_2_top-title="text">Создание компонентов</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/24545" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="24545" data-item_level_3-href="href" title="Создание контейнера htmlix">Создание контейнера</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/79619" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79619" data-item_level_3-href="href" title="Добавление свойств в контейнер htmlix">Добавление свойств в контейнер</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/49617" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49617" data-item_level_3-href="href" title="Создание массива htmlix">Создание массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/26365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="26365" data-item_level_3-href="href" title="Добавление контейнеров в массив htmlix">Добавление контейнеров в массив</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/22997" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="22997" data-item_level_3-href="href" title="Добавление пользовательских событий htmlix">Добавление пользовательских событий</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/78876" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="78876" data-item_level_3-href="href" title="Прослушивание пользовательских событий из свойств массива htmlix">Прослушивание пользовательских событий из свойств массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/76769" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="76769" data-item_level_3-href="href" title="Создание виртуального массива htmlix">Создание виртуального массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/91564" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="91564" data-item_level_3-href="href" title="Смена отображаемых компонентов - render-variant htmlix">Смена отображаемых компонентов - render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/4099" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="4099" data-item_level_3-href="href" title="Смена отображаемых компонентов - fetchComponents  htmlix">Смена отображаемых компонентов - fetchComponents </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/17990" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17990" data-item_level_3-href="href" title=" Обновление  массива с различными вариантами шаблонов  htmlix"> Обновление  массива с различными вариантами шаблонов </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/58350" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="58350" data-item_level_3-href="href" title="Получение сразу всех данных из массива htmlix">Получение сразу всех данных из массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/6741" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6741" data-item_level_3-href="href" title="Обновление массива с различными вариантами групп htmlix">Обновление массива с различными вариантами групп</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/93566" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="93566" data-item_level_3-href="href" title="Наследование компонентов htmlix">Наследование компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/41234" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="41234" data-item_level_3-href="href" title="Наследование отдельных свойств компонентов htmlix">Наследование отдельных свойств компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/89894" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="89894" data-item_level_3-href="href" title="Вспомогательные методы - aux htmlix">Вспомогательные методы - aux</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/app_structure/#" data-item_level_2_top-click="click" data-item_level_2_top-data="app_structure">   <span data-item_level_2_top-title="text">Структура приложения</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/17027" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17027" data-item_level_3-href="href" title="Навигация htmlix">Навигация</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/40635" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40635" data-item_level_3-href="href" title="Экземпляр приложения htmlix">Экземпляр приложения</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/57226" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="57226" data-item_level_3-href="href" title="Структура свойства Prop htmlix">Структура свойства Prop</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/64489" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="64489" data-item_level_3-href="href" title="Структура контейнера Container htmlix">Структура контейнера Container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/28365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="28365" data-item_level_3-href="href" title="Структура массива HTMLixArray htmlix">Структура массива HTMLixArray</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/data_types/#" data-item_level_2_top-click="click" data-item_level_2_top-data="data_types">   <span data-item_level_2_top-title="text">Типы данных</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/62713" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62713" data-item_level_3-href="href" title="Общие сведения htmlix">Общие сведения</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/40591" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40591" data-item_level_3-href="href" title="getProp() htmlix">getProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/35443" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="35443" data-item_level_3-href="href" title="setProp(&quot;newProp&quot;) htmlix">setProp("newProp")</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/32847" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="32847" data-item_level_3-href="href" title="removeProp() htmlix">removeProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/36021" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="36021" data-item_level_3-href="href" title="group htmlix">group</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/61069" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="61069" data-item_level_3-href="href" title="render-variant htmlix">render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/66516" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="66516" data-item_level_3-href="href" title="Дополнительные методы для свойств - событий htmlix">Дополнительные методы для свойств - событий</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/methods/#" data-item_level_2_top-click="click" data-item_level_2_top-data="methods">   <span data-item_level_2_top-title="text">Методы</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/18945" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="18945" data-item_level_3-href="href" title="Методы контейнера htmlix">Методы контейнера</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/53743" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53743" data-item_level_3-href="href" title="Методы массива HTMLixArray htmlix">Методы массива HTMLixArray</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/34965" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="34965" data-item_level_3-href="href" title="Методы пользовательских событий htmlix">Методы пользовательских событий</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/49794" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49794" data-item_level_3-href="href" title="Методы экземпляра приложения htmlix">Методы экземпляра приложения</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/additional_settings/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_settings">   <span data-item_level_2_top-title="text">Дополнительные настройки</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/97160" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="97160" data-item_level_3-href="href" title="Шаблон &quot;template&quot; для массива  htmlix">Шаблон "template" для массива </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/42723" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="42723" data-item_level_3-href="href" title="Способы указания свойств htmlix">Способы указания свойств</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/16593" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="16593" data-item_level_3-href="href" title="Уточняющий селектор ( selector ) для массива htmlix">Уточняющий селектор ( selector ) для массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/74959" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="74959" data-item_level_3-href="href" title="HtmlixRouter  htmlix">HtmlixRouter </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/6596" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6596" data-item_level_3-href="href" title="События создания приложения и компонентов htmlix">События создания приложения и компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/62" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62" data-item_level_3-href="href" title="Загрузка шаблонов из .js файла - templateVar htmlix">Загрузка шаблонов из .js файла - templateVar</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/53600" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53600" data-item_level_3-href="href" title="Сокращенный доступ к свойствам и методам htmlix">Сокращенный доступ к свойствам и методам</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/79539" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79539" data-item_level_3-href="href" title="Контекст в stateMethods методах htmlix">Контекст в stateMethods методах</a>
+							   </li></ul>
+						</li></ul>
+			   </li>
+			   							
+		<li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="lessons" class="nav-link" href="/simple-cms/lessons/#">Уроки</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons/create_app/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_app">   <span data-item_level_2_top-title="text">Создание приложений</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_app/6791" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6791" data-item_level_3-href="href" title="Создание прототипа SPA интернет магазина htmlix">Создание прототипа SPA интернет магазина</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons/additional_topics/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_topics">   <span data-item_level_2_top-title="text">Дополнительные темы</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_topics/41399" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="41399" data-item_level_3-href="href" title="Работа с пользовательскими событиями htmlix">Работа с пользовательскими событиями</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="api_en" class="nav-link" href="/simple-cms/api_en/#">api english version</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/terms_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="terms_en">   <span data-item_level_2_top-title="text">Terms</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/63053" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="63053" data-item_level_3-href="href" title="Components htmlix">Components</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/24778" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="24778" data-item_level_3-href="href" title="Properties htmlix">Properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/58577" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="58577" data-item_level_3-href="href" title="Description and instance of the application htmlix">Description and instance of the application</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/create_components_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_components_en">   <span data-item_level_2_top-title="text">Creating components</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/98742" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="98742" data-item_level_3-href="href" title="Creating a container htmlix">Creating a container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/28686" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="28686" data-item_level_3-href="href" title="Adding properties to a container htmlix">Adding properties to a container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/80223" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="80223" data-item_level_3-href="href" title="Creating an array htmlix">Creating an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/81622" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="81622" data-item_level_3-href="href" title=" Adding containers to an array htmlix"> Adding containers to an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/5828" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="5828" data-item_level_3-href="href" title="Adding Custom Events htmlix">Adding Custom Events</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/37556" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="37556" data-item_level_3-href="href" title="Listening to user events from array properties htmlix">Listening to user events from array properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/90002" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="90002" data-item_level_3-href="href" title=" Creating a virtual array htmlix"> Creating a virtual array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/81662" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="81662" data-item_level_3-href="href" title="Changing the displayed components - render-variant htmlix">Changing the displayed components - render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/52673" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="52673" data-item_level_3-href="href" title="Changing the displayed components - fetchComponents htmlix">Changing the displayed components - fetchComponents</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/40309" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40309" data-item_level_3-href="href" title="Updating an array with different template options htmlix">Updating an array with different template options</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/21822" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="21822" data-item_level_3-href="href" title="Getting all the data from the array at once htmlix">Getting all the data from the array at once</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/8238" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="8238" data-item_level_3-href="href" title="Updating an array with different group options htmlix">Updating an array with different group options</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/52090" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="52090" data-item_level_3-href="href" title="Inheritance of components htmlix">Inheritance of components</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/9630" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="9630" data-item_level_3-href="href" title="Inheritance of individual component properties htmlix">Inheritance of individual component properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/88118" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="88118" data-item_level_3-href="href" title="Auxiliary methods - aux htmlix">Auxiliary methods - aux</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/app_structure_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="app_structure_en">   <span data-item_level_2_top-title="text">Application Structure</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/69267" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="69267" data-item_level_3-href="href" title="Navigation htmlix">Navigation</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/14429" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="14429" data-item_level_3-href="href" title="Application Instance htmlix">Application Instance</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/37890" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="37890" data-item_level_3-href="href" title="Structure of the Prop property htmlix">Structure of the Prop property</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/4764" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="4764" data-item_level_3-href="href" title="Container Structure Container htmlix">Container Structure Container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/7675" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="7675" data-item_level_3-href="href" title="The structure of the HTMLixArray array htmlix">The structure of the HTMLixArray array</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/data_types_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="data_types_en">   <span data-item_level_2_top-title="text">Data Types</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/22680" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="22680" data-item_level_3-href="href" title=" General information htmlix"> General information</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/69113" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="69113" data-item_level_3-href="href" title="getProp() htmlix">getProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/11200" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="11200" data-item_level_3-href="href" title="setProp(&quot;newProp&quot;) htmlix">setProp("newProp")</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/47543" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="47543" data-item_level_3-href="href" title="removeProp() htmlix">removeProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/64811" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="64811" data-item_level_3-href="href" title="group htmlix">group</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/8707" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="8707" data-item_level_3-href="href" title="render-variant htmlix">render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/12889" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="12889" data-item_level_3-href="href" title="Additional methods for event properties htmlix">Additional methods for event properties</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/methods_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="methods_en">   <span data-item_level_2_top-title="text">Methods</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/44291" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="44291" data-item_level_3-href="href" title="Container Methods htmlix">Container Methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/86858" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="86858" data-item_level_3-href="href" title="HTMLixArray Array Methods htmlix">HTMLixArray Array Methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/99011" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="99011" data-item_level_3-href="href" title="Custom Event methods htmlix">Custom Event methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/47179" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="47179" data-item_level_3-href="href" title="Application Instance Methods htmlix">Application Instance Methods</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/additional_settings_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_settings_en">   <span data-item_level_2_top-title="text">Additional settings</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/30358" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="30358" data-item_level_3-href="href" title="Template &quot;template&quot; for an array htmlix">Template "template" for an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/51149" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="51149" data-item_level_3-href="href" title="Ways to specify properties htmlix">Ways to specify properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/16563" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="16563" data-item_level_3-href="href" title="Clarifying selector for an array htmlix">Clarifying selector for an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/15332" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="15332" data-item_level_3-href="href" title="HtmlixRouter  htmlix">HtmlixRouter </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/71253" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="71253" data-item_level_3-href="href" title="Application and Component creation Events htmlix">Application and Component creation Events</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/35442" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="35442" data-item_level_3-href="href" title="Loading templates from .js file - templateVar htmlix">Loading templates from .js file - templateVar</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/79179" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79179" data-item_level_3-href="href" title="Reduced access to properties and methods htmlix">Reduced access to properties and methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/55709" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="55709" data-item_level_3-href="href" title="Context in stateMethods methods htmlix">Context in stateMethods methods</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="lessons_en" class="nav-link active" href="/simple-cms/lessons_en/#">Lessons</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/additional_topics_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_topics_en">   <span data-item_level_2_top-title="text">Additional topics</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_topics_en/1082" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="1082" data-item_level_3-href="href" title="Working with user events htmlix">Working with user events</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/create_app_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_app_en">   <span data-item_level_2_top-title="text">Creating applications</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_app_en/56217" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="56217" data-item_level_3-href="href" title="Creating a prototype of an online store SPA htmlix">Creating a prototype of an online store SPA</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="contacts" class="nav-link" href="/simple-cms/contacts/#">Контакты</a>
+					<ul class="hover-non">
+					
+					</ul>
+			  </li></ul>
+
+		 <li class="nav-item toggler-nav-type" style="margin-top: 16px; margin-left: 7px; margin-right: 15px;">
+			<label class="switch">
+				<input data-menu-toggle_nav_type="click" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</li>
+
+		
+</nav>
+
+
+
+<div data-router_main="router"><div data-sections="container" class="container-fluid" style="margin-top: 10px;">
+	    <div class="row">
+		
+			<div data-sections-left_coll_style="style" class="col-sm-12 col-md-3" style="">
+				<section class="categories">
+					<ul data-sections-group_items="group" class="nav flex-column">
+					
+						<li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/additional_topics_en/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="additional_topics_en">   <span data-item_level_2-title="text">Additional topics</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_topics_en/1082" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="1082" data-item_level_3-href="href" title="Working with user events htmlix">Working with user events</a>
+							   </li></ul>
+						</li>
+
+					<li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/create_app_en/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="create_app_en">   <span data-item_level_2-title="text">Creating applications</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_app_en/56217" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="56217" data-item_level_3-href="href" title="Creating a prototype of an online store SPA htmlix">Creating a prototype of an online store SPA</a>
+							</li></ul>
+						</li></ul><!-- end categories="array" -->
+				</section>
+			</div>
+			
+			
+			<div data-sections-right_coll_class="class" class="col-sm-12 col-md-9">
+			
+				<div class="body" data-page_single="container">
+				
+					<h1 data-page_single-title="text" class="mb20" style="margin-bottom: 20px;">Working with user events</h1>
+	
+					<div data-page_single-description="html" style="margin-bottom: 15px;"><p>This article will cover the basic principles of working with user events in Htmlix and create a small application of four components: user name input forms, greetings, exit buttons, and an array with application users. </p>
+<p>A ready-made example can be called <a href="https://sergeyovechkin .github.io/tests/test-eventProps/index.html ">here</a></p>
+<p>After entering the user's name into the form, the application will display his name in the greeting, exit button and create a new container in the array with users, as well as save the data in localStorage. After reloading the page, it will take the name from localStorage. When you click on the "log out of profile" button, it will delete data from all components and a variable from localStorage.</p>
+<p>Let's create four components: an entry form - form, a greeting - greeting, an exit button - logout and an array with all visitors - users_array, and see how we would create communication between them if we did not use user events.</p>
+<p>Let's create html markup of all components:</p>
+<pre><code class="html language-html">&lt;!-- container component form with two properties input with the property type "inputvalue" and click with the type "click" --&gt;
+
+<span class="js-vars">&lt;form</span> data-<span class="data-main-attr">form</span><span class="data-attr"></span>="container" class="card col-12"&gt;
+ <span class="tag">&lt;div</span> class="form-group"&gt;
+ &lt;label for=""&gt;Enter a name&lt;/label&gt;
+ <span class="input-vars">&lt;textarea</span> data-<span class="data-main-attr">form</span>-<span class="data-attr">input</span>="inputvalue" class="form-control" rows="1"&gt;<span class="input-vars">&lt;/textarea&gt;</span>
+ <span class="tag">&lt;/div&gt;</span>
+ <span class="js-vars">&lt;button</span> data-<span class="data-main-attr">form</span>-<span class="data-attr">click</span>="click" type="submit"&gt;Submit<span class="js-vars">&lt;/button&gt;</span>
+<span class="js-vars">&lt;/form&gt;</span>
+
+<span class="js-comments">
+&lt;!-- container component greeting and user_name property with type - "text" --&gt;</span>
+
+<span class="tag">&lt;div</span> data-<span class="data-main-attr">greeting</span><span class="data-attr"></span>="container" class="col-6 card"&gt; 
+ <span class="tag">&lt;p</span>&gt;Hello<span class="js-vars">:</span> <span class="tag">&lt;span</span> data-<span class="data-main-attr">greeting</span>-<span class="data-attr">user_name</span>="text"&gt;guest<span class="tag">&lt;/span&gt;</span><span class="tag">&lt;/p&gt;</span>
+<span class="tag">&lt;/div&gt;</span>
+
+<span class="js-comments">
+&lt;!-- container component exit button and user_name property with type - "text" --&gt;</span>
+
+<span class="tag">&lt;div</span> data-<span class="data-main-attr">logout</span><span class="data-attr"></span>="container" class="col-6 card"&gt; 
+ &lt;a href="#"&gt; Log out of profile<span class="js-vars">:</span> ( <span class="tag">&lt;span</span> data-<span class="data-main-attr">logout</span>-<span class="data-attr">user_name</span>="text"&gt;<span class="tag">&lt;/span&gt;</span>)
+&lt;/a&gt; 
+<span class="tag">&lt;/div&gt;</span>
+
+<span class="js-comments">
+&lt;!-- component is an array of users, initially with two containers, in each container the user_name property is "text" --&gt;</span> 
+
+<span class="tag">&lt;div</span> class="container-fluid" style="border<span class="js-vars">:</span> 1px solid red; margin-top<span class="js-vars">:</span> 20px;"&gt;
+ <span class="tag">&lt;p</span>&gt; all users:<span class="tag">&lt;/p&gt;</span>
+
+<span class="tag">&lt;div</span> data-<span class="data-main-attr">users_array</span><span class="data-attr"></span>="array" class="row"&gt;
+
+ <span class="tag">&lt;div</span> data-<span class="data-main-attr">user</span><span class="data-attr"></span>="container" class="col-4 card"&gt; 
+ <span class="tag">&lt;p</span>&gt;user - 
+ <span class="tag">&lt;span</span> data-<span class="data-main-attr">user</span>-<span class="data-attr">user_name</span>="text"&gt;user_name_1<span class="tag">&lt;/span&gt;</span> 
+ <span class="tag">&lt;/p&gt;</span> 
+ <span class="tag">&lt;/div&gt;</span>
+
+ <span class="tag">&lt;div</span> data-<span class="data-main-attr">user</span><span class="data-attr"></span>="container" class="col-4 card"&gt; 
+ <span class="tag">&lt;p</span>&gt;user - 
+ <span class="tag">&lt;span</span> data-<span class="data-main-attr">user</span>-<span class="data-attr">user_name</span>="text"&gt;user_name_1<span class="tag">&lt;/span&gt;</span> 
+ <span class="tag">&lt;/p&gt;</span> 
+ <span class="tag">&lt;/div&gt;</span>
+
+ <span class="tag">&lt;/div&gt;</span> 
+<span class="tag">&lt;/div&gt;</span>
+</code></pre>
+<p>Now let's move them to javascript:</p>
+<pre><code class="javascript language-javascript"><span class="js-vars">var</span> StateMap <span class="js-vars">=</span> {
+
+ form<span class="js-vars">:</span> {<span class="js-comments">//login form</span>
+container<span class="js-vars">:</span> "form",
+props<span class="js-vars">:</span> ["input", "click"],
+methods<span class="js-vars">:</span> {
+
+ click<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+event.preventDefault(); <span class="js-comments">//cancel page reload</span>
+
+ <span class="js-comments">//getting the input property data</span>
+ <span class="js-vars">var</span> text <span class="js-vars">=</span> <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.input.<span class="js-vars-2">getProp</span>(); 
+ <span class="js-vars-2">console</span>.log(text); 
+              } 
+      }, 
+ }, 
+ greeting<span class="js-vars">:</span> {<span class="js-comments">//greeting</span>
+
+ container<span class="js-vars">:</span> "greeting",
+props<span class="js-vars">:</span> [ "user_name", ],
+methods<span class="js-vars">:</span> {
+             }
+     },
+logout<span class="js-vars">:</span> { <span class="js-comments">//exit button</span>
+
+ container<span class="js-vars">:</span> "logout",
+props<span class="js-vars">:</span> [ "user_name", ],
+methods<span class="js-vars">:</span> {
+              },
+},
+users_array<span class="js-vars">:</span> { <span class="js-comments">//array with users</span>
+
+props<span class="js-vars">:</span> [ "user_name", ],
+ methods<span class="js-vars">:</span> { 
+            }, 
+ },
+}
+window.onload <span class="js-vars">=</span> <span class="js-vars-2">function</span>(){
+
+ <span class="js-vars">var</span> HM <span class="js-vars">=</span> <span class="js-vars">new</span> HTMLixState(StateMap);
+ <span class="js-vars-2">console</span>.log(HM); 
+}
+</code></pre>
+<p>In the example above, we wrote the data of the "input" property from the form component to the "text" variable. Now we need to display them in the properties of the greeting and logout components, as well as create a new container in the users_array array. To understand why custom events are needed, let's first try to do this in various ways without using them.</p>
+<p><b>1.</b> method - in the click method of the form itself, go directly to each component and set the text property:</p>
+<pre><code class="javascript language-javascript"> event.preventDefault();
+ <span class="js-vars">var</span> text <span class="js-vars">=</span> <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.input.<span class="js-vars-2">getProp</span>();
+<span class="js-comments">//set values to properties</span>
+ <span class="js-vars-2">this</span>.rootLink.state["greeting"].props.user_name.<span class="js-vars-2">setProp</span>(text);
+ <span class="js-vars-2">this</span>.rootLink.state["logout"].props.user_name.<span class="js-vars-2">setProp</span>(text);
+
+ <span class="js-comments">///created a <span class="js-vars">new</span> container</span>
+ <span class="js-vars-2">this</span>.rootLink.state["users_array"].add({user_name<span class="js-vars">:</span> text});
+</code></pre>
+<p>The disadvantage of this approach is obvious, what if we then get data for this property somewhere else? For example, based on localstorage, they will be loaded automatically.</p>
+<p><b>2.</b> the way is to create a method in the stateMethods object and call it when the data changes:</p>
+<pre><code class="javascript language-javascript">stateMethods<span class="js-vars">:</span> {
+
+ <span class="js-comments">//this in stateMethods methods points to rootLink</span>
+entryUser<span class="js-vars">:</span> <span class="js-vars-2">function</span>(text){
+
+ <span class="js-vars-2">this</span>.state["greeting"].props.user_name.<span class="js-vars-2">setProp</span>(text);
+ <span class="js-vars-2">this</span>.state["logout"].props.user_name.<span class="js-vars-2">setProp</span>(text);
+ <span class="js-vars-2">this</span>.state["users_array"].add({user_name<span class="js-vars">:</span> text});
+ }
+}
+
+<span class="js-comments">// after loading the page</span>
+window.onload <span class="js-vars">=</span> <span class="js-vars-2">function</span>(){
+ <span class="js-vars">var</span> name <span class="js-vars">=</span> window.localStorage.getItem('user_name');
+
+ if(name)HM.stateMethods.entryUser(name); <span class="js-comments">///calling the method</span>
+}
+
+<span class="js-comments">//in the form</span>
+of click<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+event.preventDefault();
+ <span class="js-vars">var</span> text <span class="js-vars">=</span> <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.input.<span class="js-vars-2">getProp</span>();
+ <span class="js-vars-2">this</span>.rootLink.stateMethods.entryUser(text); 
+}
+</code></pre>
+<p>In this case, we managed to avoid code duplication, but the problem is that the methods for working with the properties of the component are not inside it, but in external functions. What if, before setting a property, it needs to be formatted somehow, differently for each component, or we will need to set not one property, but several, so it's better when the components themselves work with their properties. </p>
+<p><b>3.</b> the way is to transfer all the logic of working with properties to components, and create methods in them with which to call certain actions.</p>
+<pre><code class="javascript language-javascript"> greeting<span class="js-vars">:</span> {
+
+ container<span class="js-vars">:</span> "greeting",
+
+ <span class="js-comments">//added an auxiliary method for greeting the user</span>
+ props<span class="js-vars">:</span> [ "user_name", ["greet_user", "aux"] ], 
+ methods<span class="js-vars">:</span> {
+
+ greet_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(name){
+             <span class="js-vars-2">this</span>.props.user_name.<span class="js-vars-2">setProp</span>(name+" !!!");
+       }
+    }
+ },
+container<span class="js-vars">:</span> "logout",
+
+ props<span class="js-vars">:</span> [ "user_name", ["set_name", "aux"]], <span class="js-comments">//added an auxiliary method to work with</span>
+the methods component property<span class="js-vars">:</span> {
+
+ set_name<span class="js-vars">:</span> <span class="js-vars-2">function</span>(name){
+                      <span class="js-vars-2">this</span>.props.user_name.<span class="js-vars-2">setProp</span>(name);
+                      }
+
+           }, 
+ },
+
+users_array<span class="js-vars">:</span> { 
+ arrayProps<span class="js-vars">:</span> [["entry_user", "aux"]], <span class="js-comments">///adding a container with a <span class="js-vars">new</span> user from the array</span>
+ arrayMethods<span class="js-vars">:</span> {
+ entry_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(name){
+          <span class="js-vars-2">this</span>.add({user_name<span class="js-vars">:</span> name})
+        }
+}
+container<span class="js-vars">:</span> "user",
+props<span class="js-vars">:</span> [ "user_name", ],
+methods<span class="js-vars">:</span> {
+         },
+},
+stateMethods<span class="js-vars">:</span> { <span class="js-comments">//changed the general</span>
+entryUser<span class="js-vars">:</span> <span class="js-vars-2">function</span>(text) method{
+
+ <span class="js-vars-2">this</span>.state["greeting"].methods.greet_user(text);
+ <span class="js-vars-2">this</span>.state["logout"].methods.set_name(text);
+ <span class="js-vars-2">this</span>.state["users_array"].methods.entry_user(text);
+  }
+}
+<span class="js-comments">//then we also call this entryUser method from the form and when loading the page</span>
+</code></pre>
+<p>Now the components are encapsulated, but we access the component by its name. What if we then want to change the name of the component or method, or delete the component altogether, or we will have many such components that listen to the same property. Or we will have many such properties, respectively, we will have to create many such methods. </p>
+<p>To facilitate this task, you can use custom events. The component subscribes to the event, and when it occurs, it does something with its properties.</p>
+<p>Let's edit the code, now using custom events:</p>
+<pre><code class="javascript language-javascript"><span class="js-vars">var</span> StateMap <span class="js-vars">=</span> {
+
+ eventEmiters<span class="js-vars">:</span> { 
+ <span class="js-comments">//created a user login event emitter </span>
+ ["emiter-entry-user"]<span class="js-vars">:</span> {prop<span class="js-vars">:</span> ""}, 
+ },
+ form<span class="js-vars">:</span> {
+ container<span class="js-vars">:</span> "form",
+ props<span class="js-vars">:</span> ["input", "click"],
+ methods<span class="js-vars">:</span> {
+
+ click<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+ event.preventDefault();
+ <span class="js-vars">var</span> text <span class="js-vars">=</span> <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.input.<span class="js-vars-2">getProp</span>();
+
+ <span class="js-comments">//called an event in the form and passed data to it</span>
+ <span class="js-vars-2">this</span>.rootLink.eventProps["emiter-entry-user"].setEventProp(text); 
+ window.localStorage.setItem('user_name', text); 
+ } 
+ }, 
+}, 
+greeting<span class="js-vars">:</span> {
+
+container<span class="js-vars">:</span> "greeting",
+props<span class="js-vars">:</span> [ "user_name", ['listen_entry_user', "emiter-entry-user", "" ] ], <span class="js-comments">//added an event listener "emiter-entry-user"</span>
+methods<span class="js-vars">:</span> {
+
+listen_entry_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+<span class="js-comments">//received data from the event and updated property</span>
+ <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.user_name.<span class="js-vars-2">setProp</span>( <span class="js-vars-2">this</span>.emiter.getEventProp() );
+ }, 
+ }, 
+},
+logout<span class="js-vars">:</span> { 
+
+ container<span class="js-vars">:</span> "logout",
+props<span class="js-vars">:</span> [ "user_name", ["listen_entry_user", "emiter-entry-user", "" ]], <span class="js-comments">//event listener property "emiter-entry-user"</span>
+methods<span class="js-vars">:</span> {
+listen_entry_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+<span class="js-comments">//got data from the event and updated the property </span>
+ <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.user_name.<span class="js-vars-2">setProp</span>( <span class="js-vars-2">this</span>.emiter.getEventProp() );
+},
+},
+},
+<span class="js-comments">// here the event listener is added to the array property, because if you add it to the container, it will be called for each container </span>
+users_array<span class="js-vars">:</span> { 
+
+ arrayProps<span class="js-vars">:</span> [ ['listen_entry_user', "emiter-entry-user", ""] ], <span class="js-comments">//event listener property "emiter-entry-user"</span>
+ arrayMethods<span class="js-vars">:</span> {
+
+listen_entry_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+<span class="js-comments">//got data from the event and created a <span class="js-vars">new</span> container</span>
+ <span class="js-vars-2">this</span>.<span class="tag">parent</span>.add( {user_name<span class="js-vars">:</span> <span class="js-vars-2">this</span>.emiter.getEventProp()} );
+           }, 
+ }, 
+ container<span class="js-vars">:</span> "user",
+ props<span class="js-vars">:</span> [ "user_name", ['listen_exit_user', "emiter-exit-user", ""] ],
+ methods<span class="js-vars">:</span> { 
+            }
+ }, 
+},
+
+}
+window.onload <span class="js-vars">=</span> <span class="js-vars-2">function</span>(){
+
+<span class="js-vars">var</span> HM <span class="js-vars">=</span> <span class="js-vars">new</span> HTMLixState(StateMap);
+ <span class="js-vars">var</span> name <span class="js-vars">=</span> window.localStorage.getItem('user_name');
+
+ if(name != null)HM.eventProps["emiter-entry-user"].setEventProp(name); <span class="js-comments">///called the "emiter-entry-user" event when loading the site and passed data</span>
+to it }
+</code></pre>
+<p>Thus, we got rid of the intermediate method "entryUser" and simply call the event by passing new data to it in the form and after loading the page.Now if we need to change something in a component, or delete it altogether, we do not need to correct the code in each function, which can be as many as you want. And to unsubscribe from any event, you can simply delete the listener in the component, or temporarily disable it using the disableEvent() method in the subscriber property.</p>
+<p>The full code of this example, along with the second "emiter-exit-user" event, can be viewed <a href="https://github.com/SergeyOvechkin/tests/tree/master/test-eventProps ">here</a>.</p></div>			
+					
+				</div><!-- end page_single -->
+			</div>	<!-- end router_page -->  			
+			
+			
+			
+
+		</div><!-- row -->
+</div></div>  <!-- router_main -->
+
+
+
+ 
+</div><!-- container-fluid -->	
+
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/CATEGORIES.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/SECTIONS.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/category_id.js"></script>
+	
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/template/template.js"></script>
+	
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/htmlix.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/front.js"></script>
+		<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/tagWraper.js"></script>
+</body>
+ </html>

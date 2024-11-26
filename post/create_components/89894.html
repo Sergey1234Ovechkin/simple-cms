@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+ <html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="htmlix, создание spa на htmlix, htmlix уроки, htmlix api, javascript">
+		<link rel="stylesheet" href="https://sergey123ovechkin.github.io/simple-cms/static/css/bootstrap.min.css">
+		 <script src="https://sergey123ovechkin.github.io/simple-cms/static/js/showdown.min.js"></script>
+		<link rel="stylesheet" href="https://sergey123ovechkin.github.io/simple-cms/static/css/main.css">
+    </head>
+<body>
+<div class="container-fluid">
+
+
+
+<nav data-menu="array" class="navbar navbar-expand-sm navbar-light bg-light">
+		
+		<div data-menu-mobail_toggler="click" class="toggler-mobail-nav-type mr-auto" style="background-color: #ebf5ff; width: 100%;">
+		  <a href="#" style="font-size: 25px; margin-left: 7px; "> = </a>
+		</div>	
+		<ul data-menu-mobail_toggler_style="style" class="navbar-nav mr-auto">
+												
+			 <li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="home" class="nav-link" href="/simple-cms/Htmlix/#">Htmlix</a>
+					<ul class="hover-non">
+					
+					</ul>
+			  </li>
+			  
+			   <li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="api" class="nav-link active" href="/simple-cms/api/#">api</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/terms/#" data-item_level_2_top-click="click" data-item_level_2_top-data="terms">   <span data-item_level_2_top-title="text">Термины</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/31782" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="31782" data-item_level_3-href="href" title="Компоненты  htmlix">Компоненты </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/20010" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="20010" data-item_level_3-href="href" title="Свойства htmlix">Свойства</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/19950" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="19950" data-item_level_3-href="href" title="Описание и экземпляр приложения htmlix">Описание и экземпляр приложения</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/create_components/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_components">   <span data-item_level_2_top-title="text">Создание компонентов</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/24545" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="24545" data-item_level_3-href="href" title="Создание контейнера htmlix">Создание контейнера</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/79619" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79619" data-item_level_3-href="href" title="Добавление свойств в контейнер htmlix">Добавление свойств в контейнер</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/49617" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49617" data-item_level_3-href="href" title="Создание массива htmlix">Создание массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/26365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="26365" data-item_level_3-href="href" title="Добавление контейнеров в массив htmlix">Добавление контейнеров в массив</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/22997" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="22997" data-item_level_3-href="href" title="Добавление пользовательских событий htmlix">Добавление пользовательских событий</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/78876" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="78876" data-item_level_3-href="href" title="Прослушивание пользовательских событий из свойств массива htmlix">Прослушивание пользовательских событий из свойств массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/76769" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="76769" data-item_level_3-href="href" title="Создание виртуального массива htmlix">Создание виртуального массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/91564" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="91564" data-item_level_3-href="href" title="Смена отображаемых компонентов - render-variant htmlix">Смена отображаемых компонентов - render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/4099" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="4099" data-item_level_3-href="href" title="Смена отображаемых компонентов - fetchComponents  htmlix">Смена отображаемых компонентов - fetchComponents </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/17990" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17990" data-item_level_3-href="href" title=" Обновление  массива с различными вариантами шаблонов  htmlix"> Обновление  массива с различными вариантами шаблонов </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/58350" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="58350" data-item_level_3-href="href" title="Получение сразу всех данных из массива htmlix">Получение сразу всех данных из массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/6741" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6741" data-item_level_3-href="href" title="Обновление массива с различными вариантами групп htmlix">Обновление массива с различными вариантами групп</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/93566" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="93566" data-item_level_3-href="href" title="Наследование компонентов htmlix">Наследование компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/41234" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="41234" data-item_level_3-href="href" title="Наследование отдельных свойств компонентов htmlix">Наследование отдельных свойств компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/89894" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="89894" data-item_level_3-href="href" title="Вспомогательные методы - aux htmlix">Вспомогательные методы - aux</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/app_structure/#" data-item_level_2_top-click="click" data-item_level_2_top-data="app_structure">   <span data-item_level_2_top-title="text">Структура приложения</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/17027" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17027" data-item_level_3-href="href" title="Навигация htmlix">Навигация</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/40635" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40635" data-item_level_3-href="href" title="Экземпляр приложения htmlix">Экземпляр приложения</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/57226" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="57226" data-item_level_3-href="href" title="Структура свойства Prop htmlix">Структура свойства Prop</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/64489" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="64489" data-item_level_3-href="href" title="Структура контейнера Container htmlix">Структура контейнера Container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/28365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="28365" data-item_level_3-href="href" title="Структура массива HTMLixArray htmlix">Структура массива HTMLixArray</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/data_types/#" data-item_level_2_top-click="click" data-item_level_2_top-data="data_types">   <span data-item_level_2_top-title="text">Типы данных</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/62713" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62713" data-item_level_3-href="href" title="Общие сведения htmlix">Общие сведения</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/40591" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40591" data-item_level_3-href="href" title="getProp() htmlix">getProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/35443" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="35443" data-item_level_3-href="href" title="setProp(&quot;newProp&quot;) htmlix">setProp("newProp")</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/32847" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="32847" data-item_level_3-href="href" title="removeProp() htmlix">removeProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/36021" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="36021" data-item_level_3-href="href" title="group htmlix">group</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/61069" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="61069" data-item_level_3-href="href" title="render-variant htmlix">render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/66516" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="66516" data-item_level_3-href="href" title="Дополнительные методы для свойств - событий htmlix">Дополнительные методы для свойств - событий</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/methods/#" data-item_level_2_top-click="click" data-item_level_2_top-data="methods">   <span data-item_level_2_top-title="text">Методы</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/18945" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="18945" data-item_level_3-href="href" title="Методы контейнера htmlix">Методы контейнера</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/53743" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53743" data-item_level_3-href="href" title="Методы массива HTMLixArray htmlix">Методы массива HTMLixArray</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/34965" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="34965" data-item_level_3-href="href" title="Методы пользовательских событий htmlix">Методы пользовательских событий</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/49794" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49794" data-item_level_3-href="href" title="Методы экземпляра приложения htmlix">Методы экземпляра приложения</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api/additional_settings/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_settings">   <span data-item_level_2_top-title="text">Дополнительные настройки</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/97160" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="97160" data-item_level_3-href="href" title="Шаблон &quot;template&quot; для массива  htmlix">Шаблон "template" для массива </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/42723" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="42723" data-item_level_3-href="href" title="Способы указания свойств htmlix">Способы указания свойств</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/16593" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="16593" data-item_level_3-href="href" title="Уточняющий селектор ( selector ) для массива htmlix">Уточняющий селектор ( selector ) для массива</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/74959" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="74959" data-item_level_3-href="href" title="HtmlixRouter  htmlix">HtmlixRouter </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/6596" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6596" data-item_level_3-href="href" title="События создания приложения и компонентов htmlix">События создания приложения и компонентов</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/62" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62" data-item_level_3-href="href" title="Загрузка шаблонов из .js файла - templateVar htmlix">Загрузка шаблонов из .js файла - templateVar</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/53600" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53600" data-item_level_3-href="href" title="Сокращенный доступ к свойствам и методам htmlix">Сокращенный доступ к свойствам и методам</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/79539" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79539" data-item_level_3-href="href" title="Контекст в stateMethods методах htmlix">Контекст в stateMethods методах</a>
+							   </li></ul>
+						</li></ul>
+			   </li>
+			   							
+		<li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="lessons" class="nav-link" href="/simple-cms/lessons/#">Уроки</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons/create_app/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_app">   <span data-item_level_2_top-title="text">Создание приложений</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_app/6791" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6791" data-item_level_3-href="href" title="Создание прототипа SPA интернет магазина htmlix">Создание прототипа SPA интернет магазина</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons/additional_topics/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_topics">   <span data-item_level_2_top-title="text">Дополнительные темы</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_topics/41399" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="41399" data-item_level_3-href="href" title="Работа с пользовательскими событиями htmlix">Работа с пользовательскими событиями</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="api_en" class="nav-link" href="/simple-cms/api_en/#">api english version</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/terms_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="terms_en">   <span data-item_level_2_top-title="text">Terms</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/63053" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="63053" data-item_level_3-href="href" title="Components htmlix">Components</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/24778" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="24778" data-item_level_3-href="href" title="Properties htmlix">Properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms_en/58577" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="58577" data-item_level_3-href="href" title="Description and instance of the application htmlix">Description and instance of the application</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/create_components_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_components_en">   <span data-item_level_2_top-title="text">Creating components</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/98742" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="98742" data-item_level_3-href="href" title="Creating a container htmlix">Creating a container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/28686" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="28686" data-item_level_3-href="href" title="Adding properties to a container htmlix">Adding properties to a container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/80223" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="80223" data-item_level_3-href="href" title="Creating an array htmlix">Creating an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/81622" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="81622" data-item_level_3-href="href" title=" Adding containers to an array htmlix"> Adding containers to an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/5828" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="5828" data-item_level_3-href="href" title="Adding Custom Events htmlix">Adding Custom Events</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/37556" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="37556" data-item_level_3-href="href" title="Listening to user events from array properties htmlix">Listening to user events from array properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/90002" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="90002" data-item_level_3-href="href" title=" Creating a virtual array htmlix"> Creating a virtual array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/81662" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="81662" data-item_level_3-href="href" title="Changing the displayed components - render-variant htmlix">Changing the displayed components - render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/52673" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="52673" data-item_level_3-href="href" title="Changing the displayed components - fetchComponents htmlix">Changing the displayed components - fetchComponents</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/40309" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40309" data-item_level_3-href="href" title="Updating an array with different template options htmlix">Updating an array with different template options</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/21822" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="21822" data-item_level_3-href="href" title="Getting all the data from the array at once htmlix">Getting all the data from the array at once</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/8238" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="8238" data-item_level_3-href="href" title="Updating an array with different group options htmlix">Updating an array with different group options</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/52090" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="52090" data-item_level_3-href="href" title="Inheritance of components htmlix">Inheritance of components</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/9630" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="9630" data-item_level_3-href="href" title="Inheritance of individual component properties htmlix">Inheritance of individual component properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components_en/88118" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="88118" data-item_level_3-href="href" title="Auxiliary methods - aux htmlix">Auxiliary methods - aux</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/app_structure_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="app_structure_en">   <span data-item_level_2_top-title="text">Application Structure</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/69267" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="69267" data-item_level_3-href="href" title="Navigation htmlix">Navigation</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/14429" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="14429" data-item_level_3-href="href" title="Application Instance htmlix">Application Instance</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/37890" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="37890" data-item_level_3-href="href" title="Structure of the Prop property htmlix">Structure of the Prop property</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/4764" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="4764" data-item_level_3-href="href" title="Container Structure Container htmlix">Container Structure Container</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure_en/7675" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="7675" data-item_level_3-href="href" title="The structure of the HTMLixArray array htmlix">The structure of the HTMLixArray array</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/data_types_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="data_types_en">   <span data-item_level_2_top-title="text">Data Types</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/22680" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="22680" data-item_level_3-href="href" title=" General information htmlix"> General information</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/69113" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="69113" data-item_level_3-href="href" title="getProp() htmlix">getProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/11200" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="11200" data-item_level_3-href="href" title="setProp(&quot;newProp&quot;) htmlix">setProp("newProp")</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/47543" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="47543" data-item_level_3-href="href" title="removeProp() htmlix">removeProp()</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/64811" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="64811" data-item_level_3-href="href" title="group htmlix">group</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/8707" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="8707" data-item_level_3-href="href" title="render-variant htmlix">render-variant</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types_en/12889" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="12889" data-item_level_3-href="href" title="Additional methods for event properties htmlix">Additional methods for event properties</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/methods_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="methods_en">   <span data-item_level_2_top-title="text">Methods</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/44291" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="44291" data-item_level_3-href="href" title="Container Methods htmlix">Container Methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/86858" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="86858" data-item_level_3-href="href" title="HTMLixArray Array Methods htmlix">HTMLixArray Array Methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/99011" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="99011" data-item_level_3-href="href" title="Custom Event methods htmlix">Custom Event methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods_en/47179" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="47179" data-item_level_3-href="href" title="Application Instance Methods htmlix">Application Instance Methods</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/api_en/additional_settings_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_settings_en">   <span data-item_level_2_top-title="text">Additional settings</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/30358" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="30358" data-item_level_3-href="href" title="Template &quot;template&quot; for an array htmlix">Template "template" for an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/51149" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="51149" data-item_level_3-href="href" title="Ways to specify properties htmlix">Ways to specify properties</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/16563" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="16563" data-item_level_3-href="href" title="Clarifying selector for an array htmlix">Clarifying selector for an array</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/15332" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="15332" data-item_level_3-href="href" title="HtmlixRouter  htmlix">HtmlixRouter </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/71253" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="71253" data-item_level_3-href="href" title="Application and Component creation Events htmlix">Application and Component creation Events</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/35442" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="35442" data-item_level_3-href="href" title="Loading templates from .js file - templateVar htmlix">Loading templates from .js file - templateVar</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/79179" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79179" data-item_level_3-href="href" title="Reduced access to properties and methods htmlix">Reduced access to properties and methods</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings_en/55709" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="55709" data-item_level_3-href="href" title="Context in stateMethods methods htmlix">Context in stateMethods methods</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="lessons_en" class="nav-link" href="/simple-cms/lessons_en/#">Lessons</a>
+					<ul class="hover-non">
+					
+					<li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/additional_topics_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="additional_topics_en">   <span data-item_level_2_top-title="text">Additional topics</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_topics_en/1082" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="1082" data-item_level_3-href="href" title="Working with user events htmlix">Working with user events</a>
+							   </li></ul>
+						</li><li class="nav-item" data-item_level_2_top="container">
+							<a class="nav-link " href="/simple-cms/lessons_en/create_app_en/#" data-item_level_2_top-click="click" data-item_level_2_top-data="create_app_en">   <span data-item_level_2_top-title="text">Creating applications</span>
+								
+							</a>
+							<ul data-item_level_2_top-post_group="group" class="hover-non">
+							
+								
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_app_en/56217" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="56217" data-item_level_3-href="href" title="Creating a prototype of an online store SPA htmlix">Creating a prototype of an online store SPA</a>
+							   </li></ul>
+						</li></ul>
+			  </li><li class="nav-item" data-menu_item="container">
+					<a data-menu_item-title="text" data-menu_item-click="click" data-menu_item-class="class" data-menu_item-data="contacts" class="nav-link" href="/simple-cms/contacts/#">Контакты</a>
+					<ul class="hover-non">
+					
+					</ul>
+			  </li></ul>
+
+		 <li class="nav-item toggler-nav-type" style="margin-top: 16px; margin-left: 7px; margin-right: 15px;">
+			<label class="switch">
+				<input data-menu-toggle_nav_type="click" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+		</li>
+
+		
+</nav>
+
+
+
+<div data-router_main="router"><div data-sections="container" class="container-fluid" style="margin-top: 10px;">
+	    <div class="row">
+		
+			<div data-sections-left_coll_style="style" class="col-sm-12 col-md-3" style="">
+				<section class="categories">
+					<ul data-sections-group_items="group" class="nav flex-column">
+					
+						<li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/terms/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="terms">   <span data-item_level_2-title="text">Термины</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/31782" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="31782" data-item_level_3-href="href" title="Компоненты  htmlix">Компоненты </a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/20010" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="20010" data-item_level_3-href="href" title="Свойства htmlix">Свойства</a>
+							   </li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/terms/19950" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="19950" data-item_level_3-href="href" title="Описание и экземпляр приложения htmlix">Описание и экземпляр приложения</a>
+							   </li></ul>
+						</li>
+
+					<li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/create_components/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="create_components">   <span data-item_level_2-title="text">Создание компонентов</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/24545" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="24545" data-item_level_3-href="href" title="Создание контейнера htmlix">Создание контейнера</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/79619" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79619" data-item_level_3-href="href" title="Добавление свойств в контейнер htmlix">Добавление свойств в контейнер</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/49617" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49617" data-item_level_3-href="href" title="Создание массива htmlix">Создание массива</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/26365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="26365" data-item_level_3-href="href" title="Добавление контейнеров в массив htmlix">Добавление контейнеров в массив</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/22997" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="22997" data-item_level_3-href="href" title="Добавление пользовательских событий htmlix">Добавление пользовательских событий</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/78876" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="78876" data-item_level_3-href="href" title="Прослушивание пользовательских событий из свойств массива htmlix">Прослушивание пользовательских событий из свойств массива</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/76769" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="76769" data-item_level_3-href="href" title="Создание виртуального массива htmlix">Создание виртуального массива</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/91564" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="91564" data-item_level_3-href="href" title="Смена отображаемых компонентов - render-variant htmlix">Смена отображаемых компонентов - render-variant</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/4099" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="4099" data-item_level_3-href="href" title="Смена отображаемых компонентов - fetchComponents  htmlix">Смена отображаемых компонентов - fetchComponents </a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/17990" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17990" data-item_level_3-href="href" title=" Обновление  массива с различными вариантами шаблонов  htmlix"> Обновление  массива с различными вариантами шаблонов </a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/58350" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="58350" data-item_level_3-href="href" title="Получение сразу всех данных из массива htmlix">Получение сразу всех данных из массива</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/6741" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6741" data-item_level_3-href="href" title="Обновление массива с различными вариантами групп htmlix">Обновление массива с различными вариантами групп</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/93566" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="93566" data-item_level_3-href="href" title="Наследование компонентов htmlix">Наследование компонентов</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/41234" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="41234" data-item_level_3-href="href" title="Наследование отдельных свойств компонентов htmlix">Наследование отдельных свойств компонентов</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/create_components/89894" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="89894" data-item_level_3-href="href" title="Вспомогательные методы - aux htmlix">Вспомогательные методы - aux</a>
+							</li></ul>
+						</li><li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/app_structure/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="app_structure">   <span data-item_level_2-title="text">Структура приложения</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/17027" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="17027" data-item_level_3-href="href" title="Навигация htmlix">Навигация</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/40635" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40635" data-item_level_3-href="href" title="Экземпляр приложения htmlix">Экземпляр приложения</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/57226" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="57226" data-item_level_3-href="href" title="Структура свойства Prop htmlix">Структура свойства Prop</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/64489" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="64489" data-item_level_3-href="href" title="Структура контейнера Container htmlix">Структура контейнера Container</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/app_structure/28365" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="28365" data-item_level_3-href="href" title="Структура массива HTMLixArray htmlix">Структура массива HTMLixArray</a>
+							</li></ul>
+						</li><li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/data_types/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="data_types">   <span data-item_level_2-title="text">Типы данных</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/62713" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62713" data-item_level_3-href="href" title="Общие сведения htmlix">Общие сведения</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/40591" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="40591" data-item_level_3-href="href" title="getProp() htmlix">getProp()</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/35443" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="35443" data-item_level_3-href="href" title="setProp(&quot;newProp&quot;) htmlix">setProp("newProp")</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/32847" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="32847" data-item_level_3-href="href" title="removeProp() htmlix">removeProp()</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/36021" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="36021" data-item_level_3-href="href" title="group htmlix">group</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/61069" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="61069" data-item_level_3-href="href" title="render-variant htmlix">render-variant</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/data_types/66516" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="66516" data-item_level_3-href="href" title="Дополнительные методы для свойств - событий htmlix">Дополнительные методы для свойств - событий</a>
+							</li></ul>
+						</li><li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/methods/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="methods">   <span data-item_level_2-title="text">Методы</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/18945" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="18945" data-item_level_3-href="href" title="Методы контейнера htmlix">Методы контейнера</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/53743" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53743" data-item_level_3-href="href" title="Методы массива HTMLixArray htmlix">Методы массива HTMLixArray</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/34965" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="34965" data-item_level_3-href="href" title="Методы пользовательских событий htmlix">Методы пользовательских событий</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/methods/49794" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="49794" data-item_level_3-href="href" title="Методы экземпляра приложения htmlix">Методы экземпляра приложения</a>
+							</li></ul>
+						</li><li class="nav-item" data-item_level_2="container">
+							<a class="nav-link " href="/simple-cms/api/additional_settings/#" data-item_level_2-click="click" data-item_level_2-class="class" data-item_level_2-data="additional_settings">   <span data-item_level_2-title="text">Дополнительные настройки</span>
+								<span data-item_level_2-simbol="text" style="color: red;">-</span>
+							</a>
+							<ul data-item_level_2-post_group="group" data-item_level_2-post_group_style="style" class="hover-non" style="display: ''">
+							
+							
+				
+							
+							<li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/97160" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="97160" data-item_level_3-href="href" title="Шаблон &quot;template&quot; для массива  htmlix">Шаблон "template" для массива </a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/42723" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="42723" data-item_level_3-href="href" title="Способы указания свойств htmlix">Способы указания свойств</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/16593" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="16593" data-item_level_3-href="href" title="Уточняющий селектор ( selector ) для массива htmlix">Уточняющий селектор ( selector ) для массива</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/74959" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="74959" data-item_level_3-href="href" title="HtmlixRouter  htmlix">HtmlixRouter </a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/6596" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="6596" data-item_level_3-href="href" title="События создания приложения и компонентов htmlix">События создания приложения и компонентов</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/62" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="62" data-item_level_3-href="href" title="Загрузка шаблонов из .js файла - templateVar htmlix">Загрузка шаблонов из .js файла - templateVar</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/53600" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="53600" data-item_level_3-href="href" title="Сокращенный доступ к свойствам и методам htmlix">Сокращенный доступ к свойствам и методам</a>
+							</li><li style="" data-item_level_3="container">
+									<a href="/simple-cms/post/additional_settings/79539" data-item_level_3-click="click" data-item_level_3-title="text" data-item_level_3-class="class" data-item_level_3-data="79539" data-item_level_3-href="href" title="Контекст в stateMethods методах htmlix">Контекст в stateMethods методах</a>
+							</li></ul>
+						</li></ul><!-- end categories="array" -->
+				</section>
+			</div>
+			
+			
+			<div data-sections-right_coll_class="class" class="col-sm-12 col-md-9">
+			
+				<div class="body" data-page_single="container">
+				
+					<h1 data-page_single-title="text" class="mb20" style="margin-bottom: 20px;">Вспомогательные методы - aux</h1>
+	
+					<div data-page_single-description="html" style="margin-bottom: 15px;"><p>Вспомогательные методы контейнера или массива  объявляются в описании приложения в массиве props: [ ['<code>name_method</code>', 'aux'] … ].
+В уже созданном компоненте в объекте props их не будет, они будут доступны в объекте <code>methods</code> контейнера или массива.
+this - в методе указывает на компонент (контейнер или массив).  Наследуются по тому-же принципу как и обычные свойства.</p>
+<p>Пример использования:</p>
+<p>container:</p>
+<pre><code class="javascript language-javascript">    form<span class="js-vars">:</span> {
+        container<span class="js-vars">:</span> "form",
+        props<span class="js-vars">:</span> ["input", "click", ["test_and_send_name", "aux"] ], <span class="js-comments">///добавили свойство-вспомогательный метод с типом aux</span>
+        methods<span class="js-vars">:</span> {
+
+            click<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+                event.preventDefault();
+                <span class="js-vars">var</span> text <span class="js-vars">=</span> <span class="js-vars-2">this</span>.<span class="tag">parent</span>.props.input.<span class="js-vars-2">getProp</span>();
+
+                <span class="js-vars-2">this</span>.<span class="tag">parent</span>.methods.test_and_send_name(text); <span class="js-comments">// вспомогательные (aux) методы находятся в объекте methods контейнера</span>
+
+                <span class="js-vars-2">console</span>.log(text);
+
+            },
+            test_and_send_name<span class="js-vars">:</span> <span class="js-vars-2">function</span>(name){ <span class="js-comments">// метод может принимать параметры</span>
+
+                <span class="js-comments">///this в методе указывает на контейнер</span>
+
+                if(name.length &lt; 2){
+                    alert("имя должно быть больше двух символов");
+                    return;
+                }
+
+                <span class="js-vars-2">this</span>.rootLink.eventProps["emiter-set-name"].setEventProp(name); <span class="js-comments">// вызвали событие "emiter-set-name" из метода</span>
+                window.localStorage.setItem('user_name', name);
+
+            }       
+        },      
+    },
+</code></pre>
+<p>array:</p>
+<pre><code class="javascript language-javascript">    users_array<span class="js-vars">:</span> {  
+        selector<span class="js-vars">:</span> "div.row",
+        arrayProps<span class="js-vars">:</span> [ "message", 
+                      ["send_message", "aux"], <span class="js-comments">//добавили вспомогательный метод</span>
+                        ['listen_set_name', "emiter-set-name", ""],
+                       ['listen_exit_user', "emiter-exit-user", ""]                    
+                      ], 
+        arrayMethods<span class="js-vars">:</span> {
+
+            send_message<span class="js-vars">:</span> <span class="js-vars-2">function</span>(type, mess){ <span class="js-comments">//вспомогательный метод принимает два параметра</span>
+
+                if(type == "login"){
+
+                    <span class="js-vars-2">this</span>.props.message.<span class="js-vars-2">setProp</span>("новый посетитель - "+mess); <span class="js-comments">//this в методе массива указывает на массив</span>
+
+                }else if(type == "logout"){
+
+                    <span class="js-vars-2">this</span>.props.message.<span class="js-vars-2">setProp</span>(mess+" - покинул сайт");
+
+                }               
+            },                  
+            listen_set_name<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+
+                <span class="js-vars-2">this</span>.<span class="tag">parent</span>.add( {user_name<span class="js-vars">:</span> <span class="js-vars-2">this</span>.emiter.getEventProp()} );
+
+                <span class="js-vars-2">this</span>.<span class="tag">parent</span>.methods.send_message("login", <span class="js-vars-2">this</span>.emiter.getEventProp()); <span class="js-comments">//вызвали вспомогательный метод  </span>
+
+            },
+            listen_exit_user<span class="js-vars">:</span> <span class="js-vars-2">function</span>(){
+
+                <span class="js-vars-2">this</span>.<span class="tag">parent</span>.data.forEach(container=&gt;{
+
+                    if(container.props.user_name.<span class="js-vars-2">getProp</span>() == <span class="js-vars-2">this</span>.emiter.getEventProp()){
+
+                        container.remove(true); 
+                    }                   
+                });
+                 <span class="js-vars-2">this</span>.<span class="tag">parent</span>.methods.send_message("logout", <span class="js-vars-2">this</span>.emiter.getEventProp()); <span class="js-comments">//вызвали вспомогательный метод                </span>
+            },          
+        },      
+        container<span class="js-vars">:</span> "user",
+        props<span class="js-vars">:</span> [ "user_name", ],
+        methods<span class="js-vars">:</span> {
+        },          
+    },  
+</code></pre>
+<p><a href="https://sergeyovechkin.github.io/tests/test-aux-methods/index.html">Полный код данного примера</a></p></div>			
+					
+				</div><!-- end page_single -->
+			</div>	<!-- end router_page -->  			
+			
+			
+			
+
+		</div><!-- row -->
+</div></div>  <!-- router_main -->
+
+
+
+ 
+</div><!-- container-fluid -->	
+
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/CATEGORIES.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/SECTIONS.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/dbase/category_id.js"></script>
+	
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/template/template.js"></script>
+	
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/htmlix.js"></script>
+	<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/front.js"></script>
+		<script src="https://sergey123ovechkin.github.io/simple-cms/static/js/tagWraper.js"></script>
+</body>
+ </html>
