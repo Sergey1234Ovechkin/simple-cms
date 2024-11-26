@@ -1,0 +1,4 @@
+{
+  "title": "Description and instance of the application",
+  "text": "An application description is an object containing a description of all components, user events, common methods and variables of the entire application, as well as other settings.\r\n\r\nUsed to create an instance of the application:\r\n\r\n```javascript\r\nvar StateMap = {\r\n //application description\r\n};\r\n\r\nvar HM = new HTMLixState(StateMap);\r\n//application instance\r\n\r\n\r\n```"
+}

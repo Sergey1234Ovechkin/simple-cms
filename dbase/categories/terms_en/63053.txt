@@ -1,0 +1,4 @@
+{
+  "title": "Components",
+  "text": "Components in *htmlix* are `containers` and `arrays'. \r\n\r\n`Container` this is an html element with a different set of properties. The container can be any **tag** for example `div`. \r\n\r\nAn `array' is an html element that is a storage for containers of the same type. In addition to containing a set of containers of the same type, an array can also contain additional properties.\r\n\r\n\r\nA component can be either an array or a single container - not placed in an array. If the component is a container, then its name matches the name of the `container` parameter in the application description."
+}

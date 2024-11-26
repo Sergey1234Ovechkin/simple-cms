@@ -1,0 +1,4 @@
+{
+  "title": "Application Instance Methods",
+  "text": "Application instance methods can be called from anywhere this.rootLink.nameMethod();\r\n\r\nAlmost all methods of the application instance are utility methods for initializing the application and using other htmlix components.\r\n\r\n\r\nCommon use methods:\r\n\r\n* `.getDifrentFilds(array, fild)` - gets different fields from any array array (not to be confused with HTMLixArray) - if the array contains objects, then you can specify the field of the file object, so you can \"filter out\" duplicate fields and get only different ones."
+}

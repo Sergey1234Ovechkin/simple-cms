@@ -1,0 +1,1 @@
+var SECTIONS_JS = {"api_en":{"section_id":"api_en","section_title":"api english version","section_categories":["terms_en","create_components_en","app_structure_en","data_types_en","methods_en","additional_settings_en"]},"lessons_en":{"section_id":"lessons_en","section_title":"Lessons","section_categories":["additional_topics_en","create_app_en"]}}

@@ -1,0 +1,4 @@
+{
+  "title": "Properties",
+  "text": "Properties are `Prop` objects that have access to various html properties, such as a class, text, attribute, and a property can also be an event listener.\r\nAll properties have a strictly defined data type, for example, \"text\" - text data, \"src\" - src attribute, and the property can also be an event listener, for example, \"click\"."
+}

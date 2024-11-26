@@ -1,0 +1,4 @@
+{
+  "title": "Application Instance",
+  "text": "By opening the console, you can see the created instance of the application. (`console.log(HM)`)\r\n\r\nIt contains several objects that are:\r\n\r\n* `description`- description of the application (object StateMap);\r\n* `eventProps`- object for accessing custom Emiter events;\r\n* `state` - access to all components of the application;\r\n* `stateMethods` - common methods for the entire application;\r\n* `stateProperties` - common variables for the entire application;\r\n* `stateSettings` - application settings (this field may not exist if it is not created in the application description);"
+}

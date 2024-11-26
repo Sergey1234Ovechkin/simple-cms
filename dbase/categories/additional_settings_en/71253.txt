@@ -1,0 +1,4 @@
+{
+  "title": "Application and Component creation Events",
+  "text": "The `onLoadAll` method that is called (if available, in the stateMethods object) after \"reloading\" and creating all components in the fetch request, this - in it points to the root element of the rootLink. If components are created synchronously (without fetchComponents), this method will not be called.\r\n\r\n`onCreatedContainer` - called immediately after the container is created, added to the methods container object in the application description, this - it will point to this container."
+}

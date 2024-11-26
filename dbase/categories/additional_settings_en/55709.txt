@@ -1,0 +1,4 @@
+{
+  "title": "Context in stateMethods methods",
+  "text": "By default, `this` in `stateMethods` methods points to `rootLink`,\r\n\r\nIf necessary, it can be redefined using the call(this) function \r\n\r\nYou can override the context - this only with htmlix objects: HTMLixState, HTMLixArray, Container, all types of Prop and EventEmiter, (the presence of htmlLink, rootLink, description or state fields is checked) if the context is not changed by another object."
+}

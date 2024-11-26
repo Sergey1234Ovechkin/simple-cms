@@ -1,0 +1,4 @@
+{
+  "title": "removeProp()",
+  "text": "`removeProp()` method:\r\n\r\n* `removeProp()` - \"text\",\"html\",\"inputvalue\", \"select\", \"data\", \"style\" - sets these properties equal to empty quotes - \"\", you can also use the `setProp(\"\")` method;\r\n\r\n* for attributes ('disabled', 'href', 'src', 'id',) -removes this attribute.\r\n\r\n* for \"checkbox\", \"radio\", sets false;\r\n* \"class\" - if you pass the name of the class, it will delete the class, if you pass an array with classes, it will delete several classes;\r\n* for standard events - removes the event handler named `removeProp(\"event_name\")`\r\n* for custom events does nothing, returns false;\r\n\r\nFor properties with the type \"group\" and \"render-variant\" - see the corresponding section;"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Creating a container",
+  "text": "In order to create a container, you need to specify its name and define the type = \"container\" in the html tag. Creating a page container:\r\n\r\n```html\r\n\r\n<div data-page=\"container\"> ..... </div>\r\n```\r\n\r\nNext, in the application description ( StateMap ), create a container component by specifying its name and other parameters:\r\n\r\n```javascript\r\n\r\nvar StateMap = {\r\n\r\n page: { //\r\ncontainer component name: \"page\", //container name\r\n props: [], //array of properties\r\n methods: { //methods for event handler properties\r\n } \r\n }\r\n}\r\n\r\n//Now let's create an instance of the application :\r\nwindow.onload = function(){\r\n\r\n var HM = new HTMLixState(StateMap); \r\n \r\n console.log(HM);\r\n}\r\n```"
+}

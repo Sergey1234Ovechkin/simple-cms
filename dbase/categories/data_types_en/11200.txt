@@ -1,0 +1,4 @@
+{
+  "title": "setProp(\"newProp\")",
+  "text": "Method `setProp(\"newProp\")`:\r\n\r\n* `setProp(\"newProp\")` - for `text`, `html`, `inputvalue`, `select`, `checkbox`, `radio`, `data`, `href`, `src`, `id`, `style` - sets the value passed to it property;\r\n* `class` - if you pass the name of the class, it will add a class, if you pass an array with classes, it will remove all classes and install new ones from the array;\r\n* for standard events - adds another event handler to this property `setProp(\"event_name\", event_method)`;\r\n* does nothing for custom events, returns false;\r\n\r\n* `render-variant` and `group` - see the corresponding section;"
+}

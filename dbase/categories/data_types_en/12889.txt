@@ -1,0 +1,4 @@
+{
+  "title": "Additional methods for event properties",
+  "text": "For properties that are standard events:\r\n\r\n* `this.disableEvent(eventName)` - temporarily disable the eventName event on this property;\r\n\r\n* `this.enableEvent(eventName)` - enables the disabled event;\r\n\r\n* `emitEvent(eventName)` - call the event handler of this property;\r\n\r\nFor custom events:\r\n\r\n* `this.disableEvent()` - temporarily disable listening for a user event on this property;\r\n\r\n* `this.enableEvent()` - enables the disabled event;"
+}
